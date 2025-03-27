@@ -11,7 +11,7 @@ function App() {
       <main className="bg-[url('bg.svg')] bg-no-repeat bg-center bg-[#1A1E1C] max-h-[5117px]">
         <Navbar/>
         
-       
+       <div>{children}</div>
         <Footer/>
       </main>
     </>
